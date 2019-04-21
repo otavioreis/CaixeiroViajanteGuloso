@@ -96,8 +96,8 @@ namespace AplicacaoConsole
             try
             {
                 //Descomentar uma das linhas para executar
-                //EntradaDeValoresRandomicos();
-                ValoresFixos();
+                EntradaDeValoresRandomicos();
+                //ValoresFixos();
             }
             catch (Exception ex)
             {
