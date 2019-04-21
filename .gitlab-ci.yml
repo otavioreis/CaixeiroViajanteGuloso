@@ -5,10 +5,9 @@ stages:
     - test
 
 variables:
-    test: "Example.Test"
+    test: "Algoritmos.Tests"
 
 before_script:
-    - "cd src"
     - "dotnet restore"
 
 build:
@@ -19,5 +18,4 @@ build:
 test:
     stage: test
     script: 
-        - "cd $test"
         - "dotnet test"
