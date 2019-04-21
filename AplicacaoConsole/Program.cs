@@ -46,37 +46,37 @@ namespace AplicacaoConsole
             var caixeiroViajanteGuloso = new CaixeiroViajanteGuloso(5);
 
             caixeiroViajanteGuloso.ArrayDistancias[0, 0] = 0;   //A-A
-            caixeiroViajanteGuloso.ArrayDistancias[0, 1] = 101; //A-B
-            caixeiroViajanteGuloso.ArrayDistancias[0, 2] = 132; //A-C
-            caixeiroViajanteGuloso.ArrayDistancias[0, 3] = 116; //A-D
-            caixeiroViajanteGuloso.ArrayDistancias[0, 4] = 182; //A-E
+            caixeiroViajanteGuloso.ArrayDistancias[0, 1] = 185; //A-B
+            caixeiroViajanteGuloso.ArrayDistancias[0, 2] = 119; //A-C
+            caixeiroViajanteGuloso.ArrayDistancias[0, 3] = 152; //A-D
+            caixeiroViajanteGuloso.ArrayDistancias[0, 4] = 133; //A-E
 
             //Cidade B
-            caixeiroViajanteGuloso.ArrayDistancias[1, 0] = 101; //B-A
+            caixeiroViajanteGuloso.ArrayDistancias[1, 0] = 185; //B-A
             caixeiroViajanteGuloso.ArrayDistancias[1, 1] = 0;   //B-B
-            caixeiroViajanteGuloso.ArrayDistancias[1, 2] = 184; //B-C
-            caixeiroViajanteGuloso.ArrayDistancias[1, 3] = 137; //B-D
-            caixeiroViajanteGuloso.ArrayDistancias[1, 4] = 157; //B-E
+            caixeiroViajanteGuloso.ArrayDistancias[1, 2] = 121; //B-C
+            caixeiroViajanteGuloso.ArrayDistancias[1, 3] = 150; //B-D
+            caixeiroViajanteGuloso.ArrayDistancias[1, 4] = 200; //B-E
 
             //Cidade C
-            caixeiroViajanteGuloso.ArrayDistancias[2, 0] = 132; //C-A
-            caixeiroViajanteGuloso.ArrayDistancias[2, 1] = 184; //C-B
+            caixeiroViajanteGuloso.ArrayDistancias[2, 0] = 119; //C-A
+            caixeiroViajanteGuloso.ArrayDistancias[2, 1] = 121; //C-B
             caixeiroViajanteGuloso.ArrayDistancias[2, 2] = 0;   //C-C
-            caixeiroViajanteGuloso.ArrayDistancias[2, 3] = 168; //C-D
-            caixeiroViajanteGuloso.ArrayDistancias[2, 4] = 195; //C-E
+            caixeiroViajanteGuloso.ArrayDistancias[2, 3] = 174; //C-D
+            caixeiroViajanteGuloso.ArrayDistancias[2, 4] = 120; //C-E
 
             //Cidade D
-            caixeiroViajanteGuloso.ArrayDistancias[3, 0] = 116; //D-A
-            caixeiroViajanteGuloso.ArrayDistancias[3, 1] = 137; //D-B
-            caixeiroViajanteGuloso.ArrayDistancias[3, 2] = 168; //D-C
+            caixeiroViajanteGuloso.ArrayDistancias[3, 0] = 152; //D-A
+            caixeiroViajanteGuloso.ArrayDistancias[3, 1] = 150; //D-B
+            caixeiroViajanteGuloso.ArrayDistancias[3, 2] = 174; //D-C
             caixeiroViajanteGuloso.ArrayDistancias[3, 3] = 0;   //D-D
-            caixeiroViajanteGuloso.ArrayDistancias[3, 4] = 135; //D-E
+            caixeiroViajanteGuloso.ArrayDistancias[3, 4] = 199; //D-E
 
             //Cidade E
-            caixeiroViajanteGuloso.ArrayDistancias[4, 0] = 182; //E-A
-            caixeiroViajanteGuloso.ArrayDistancias[4, 1] = 157; //E-B
-            caixeiroViajanteGuloso.ArrayDistancias[4, 2] = 195; //E-C
-            caixeiroViajanteGuloso.ArrayDistancias[4, 3] = 135; //E-D
+            caixeiroViajanteGuloso.ArrayDistancias[4, 0] = 133; //E-A
+            caixeiroViajanteGuloso.ArrayDistancias[4, 1] = 200; //E-B
+            caixeiroViajanteGuloso.ArrayDistancias[4, 2] = 120; //E-C
+            caixeiroViajanteGuloso.ArrayDistancias[4, 3] = 199; //E-D
             caixeiroViajanteGuloso.ArrayDistancias[4, 4] = 0;   //E-E
 
             caixeiroViajanteGuloso.ImprimirDistanciaDasRotasDoGrafo();
@@ -96,8 +96,8 @@ namespace AplicacaoConsole
             try
             {
                 //Descomentar uma das linhas para executar
-                EntradaDeValoresRandomicos();
-                //ValoresFixos();
+                //EntradaDeValoresRandomicos();
+                ValoresFixos();
             }
             catch (Exception ex)
             {
