@@ -5,9 +5,6 @@ stages:
 
 image: gitlab/dind
     
-services:
-    - docker:dind
-    
 variables:
     test: "Algoritmos.Tests"
     buildConfiguration: 'Release'
