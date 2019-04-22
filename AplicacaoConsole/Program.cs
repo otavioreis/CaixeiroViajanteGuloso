@@ -43,6 +43,8 @@ namespace AplicacaoConsole
 
         public static void ValoresFixos()
         {
+            Console.WriteLine("Simulando o calculo da melhor rota utilizando valores fixos:" + Environment.NewLine);
+
             var caixeiroViajanteGuloso = new CaixeiroViajanteGuloso(5);
 
             caixeiroViajanteGuloso.ArrayDistancias[0, 0] = 0;   //A-A
