@@ -5,9 +5,10 @@ Trabalho final da disciplina DevOps e Arquiteturas para Entrega Contínua, neste
 [![Build Status](https://dev.azure.com/arquiteturadevops/CaixeiroViajanteGuloso/_apis/build/status/otavioreis.CaixeiroViajanteGuloso?branchName=master)](https://dev.azure.com/arquiteturadevops/CaixeiroViajanteGuloso/_build/latest?definitionId=7&branchName=master)
 [![Build Status GitLab](https://gitlab.com/otavioreis/CaixeiroViajanteGuloso/badges/master/pipeline.svg)](https://gitlab.com/otavioreis/CaixeiroViajanteGuloso/badges/master/pipeline.svg)
 ## Grupo
+**_OTÁVIO AUGUSTO REIS_**<br />
 **_FREDERICO BITENCOURT_**<br />
 **_MATEUS SORIANO_**<br />
-**_OTÁVIO AUGUSTO REIS_**<br />
+
 
 O objetivo desse trabalho é criar um pipeline DevOps que contemple pelo menos as seguintes
 ferramentas:
